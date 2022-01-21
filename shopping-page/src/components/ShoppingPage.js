@@ -13,14 +13,16 @@ const Shoppingpage = () => {
     },
     {
       productItem: "Special Item",
-      price: "$20.00 $18.00",
+      oldPrice:"$20.00",
+      price: "$18.00",
       star: "⭐⭐⭐⭐⭐",
       btnName: "Add to cart",
       src: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
     },
     {
       productItem: "Sale Item",
-      price: "$50.00 $25.00",
+      oldPrice:"$50.00",
+      price: "$25.00",
       star: "",
       btnName: "Add to cart",
       src: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
@@ -34,7 +36,8 @@ const Shoppingpage = () => {
     },
     {
       productItem: "Sale Item",
-      price: " $50.00 $25.00",
+      oldPrice:"$50.00",
+      price: " $25.00",
       star: "",
       btnName: "Add to cart",
       src: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
@@ -48,7 +51,8 @@ const Shoppingpage = () => {
     },
     {
       productItem: "Special Item",
-      price: " $20.00 $18.00",
+      oldPrice:"$20.00",
+      price: "$18.00",
       star: "⭐⭐⭐⭐⭐",
       btnName: "Add to cart",
       src: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
@@ -79,6 +83,7 @@ const Shoppingpage = () => {
               <div>
                 <Products
                   productItem={data.productItem}
+                  oldPrice={data.oldPrice}
                   price={data.price}
                   star={data.star}
                   btnName={data.btnName}

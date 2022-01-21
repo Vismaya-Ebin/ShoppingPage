@@ -9,7 +9,6 @@
   align-items: center;
 }
 
-
 .shopStyle {
   font-size: 3rem;
   font-weight: bolder;
@@ -21,58 +20,56 @@
   font-size: 1.2rem;
   text-align: center;
 }
-.footer{
-  display:flex;
+.footer {
+  display: flex;
   align-items: center;
   justify-content: center;
-  margin-top:2px;
-  height:8rem;
+  margin-top: 2px;
+  height: 8rem;
   text-align: center;
-  background-color:black;color:white;
+  background-color: black;
+  color: white;
   font-size: 1.2rem;
 }
-.product-section{
-  display:flex;
+.product-section {
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap:3rem;
+  gap: 3rem;
   margin: 6.5rem 0rem;
-  margin-left:3rem;
+  margin-left: 3rem;
   justify-content: center;
-  
- 
- 
 }
-.productBox{
+.productBox {
   border-style: solid;
-  border: 1px solid #D3D3D3;
+  border: 1px solid #d3d3d3;
   border-radius: 0.2rem;
-  height:450px;
-  width:300px;
+  height: 450px;
+  width: 300px;
   opacity: 0.1rem;
 }
-.image-container{ 
-  height:220px;
+.image-container {
+  height: 220px;
   object-fit: cover;
   border-radius: 0.2rem;
-  width:300px;
+  width: 300px;
 }
-.details-container{
-  display:flex;
+.details-container {
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   flex: wrap;
-  margin-top:2rem;
+  height: 120px;
+ 
 }
-.item-name{ 
+.item-name {
   font-weight: bolder;
-  font-size:1.4rem;
+  font-size: 1.4rem;
   text-align: center;
 }
-.price{
+.price {
   text-align: center;
-
 }
 /*PHONE width less than 768 */
 /* @media only screen and (max-width: 768px) {
