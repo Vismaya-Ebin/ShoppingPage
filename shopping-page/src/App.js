@@ -1,6 +1,7 @@
 
 import './App.css';
-import Shoppingpage from './ShoppingPage.js';
+import Shoppingpage from './components/ShoppingPage';
+
 function App() {
   return (
     <div>
