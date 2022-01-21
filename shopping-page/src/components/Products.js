@@ -18,6 +18,7 @@ const Products = ({ productItem,
       </div>
       <div className="details-container">
         <h5>{productItem}</h5>
+        {star}
         <p>{price}</p>
         <Button label ={btnName} handleClick={(e)=> console.log("Clicked me",e)}/>
       </div>
