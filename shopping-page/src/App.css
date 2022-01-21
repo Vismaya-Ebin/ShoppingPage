@@ -63,6 +63,14 @@
   height: 120px;
  
 }
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  gap:2.5rem;
+  align-content: center;
+  --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
+}
 .item-name {
   font-weight: bolder;
   font-size: 1.4rem;
@@ -71,13 +79,11 @@
 .price {
   text-align: center;
 }
+
 /*PHONE width less than 768 */
-/* @media only screen and (max-width: 768px) {
-  .productBox {
-    background-color:lawngreen;
-    width:300px;
-  }
-} */
+@media only screen and (max-width: 768px) {
+  
+}
 /* TABLETS >  768*/
 /* @media only screen and (min-width: 768px) {
   .productBox {
@@ -86,8 +92,8 @@
   }
 } */
 /*DESKTOP > 1200px*/
-/* @media only screen and (min-width: 1200px) {
-  body {
+@media only screen and (min-width: 1200px) {
+  .productBox {
     background-color: green;
   }
-} */
+}

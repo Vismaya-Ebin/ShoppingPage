@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../App.css";
 import Products from "./Products.js";
+import Header from "./Header.js";
 
 const Shoppingpage = () => {
   const productDetails = [
@@ -69,7 +70,7 @@ const Shoppingpage = () => {
   const [initialState, updatedState] = useState(productDetails);
   return (
     <div>
-      <header></header>
+      <header><Header/></header>
       <main>
         {/* banner message */}
         <section className="banner">
@@ -78,10 +79,11 @@ const Shoppingpage = () => {
         </section>
         {/*Product section */}
         <section className="product-section">
-          {initialState.map((data) => {
+          {initialState.map((data,index) => {
             return (
               <div>
                 <Products
+                key={index}
                   productItem={data.productItem}
                   oldPrice={data.oldPrice}
                   price={data.price}
