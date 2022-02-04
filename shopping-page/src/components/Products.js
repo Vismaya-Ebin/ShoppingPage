@@ -36,7 +36,9 @@ const Products = ({ context }) => {
             </div>
             <Button
               label={data.btnName}
-              handleClick={(e) => updateCart(data.btnName === "Add to cart" ?initialCart + 1:initialCart)}
+              handleClick={(e) => updateCart(data.btnName === "Add to cart" ?initialCart + 1:initialCart)
+              
+            }
             />
           </div>
         );

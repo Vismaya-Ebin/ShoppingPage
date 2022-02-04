@@ -7,14 +7,16 @@ export default function Header({context}) {
         
         fontSize: "1.25rem"
     }
-    const margin = { marginLeft:"auto"};
+    const margin = { marginLeft:"auto",marginRight: "10rem"};
    
   return <div className="header">
       <div style={styles}>Start Bootstrap</div>
-     <div>About</div>
+    
      <div>Home</div>
      <div>About</div>
-      
+      <div>Shop<select><options >qa</options>
+      <options value="a">a</options>
+      <options value="a">a</options></select></div>
       <div style={margin}><Cart context={context}/></div>
   </div>;
 }
