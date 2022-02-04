@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useState ,useContext} from "react";
 
-export default function Cart() {
-  const [initialCart, updateCart] = useState(0);
+export default function Cart({context}) {
+  const {initialCart,updateCart} = useContext(context);
   return (
     <div>
       <button className="btn btn-outline-dark" type="submit">

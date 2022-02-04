@@ -2,22 +2,19 @@ import React from 'react';
 import '../App.css';
 
 import Cart from "./Cart.js";
-export default function Header() {
+export default function Header({context}) {
     const styles={
+        
         fontSize: "1.25rem"
     }
+    const margin = { marginLeft:"auto"};
    
   return <div className="header">
       <div style={styles}>Start Bootstrap</div>
-      {/* <div>Home</div>
-      <div>About</div>
-      <div><ul>Shop</ul>
-      <li>All Products</li>
-      <li>Popular Items</li>
-      <li>New Arrivals</li>
-     
-      </div> */}
+     <div>About</div>
+     <div>Home</div>
+     <div>About</div>
       
-      <div><Cart/></div>
+      <div style={margin}><Cart context={context}/></div>
   </div>;
 }

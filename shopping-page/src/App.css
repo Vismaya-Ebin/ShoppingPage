@@ -39,6 +39,7 @@
   margin: 6.5rem 0rem;
   margin-left: 3rem;
   justify-content: center;
+  
 }
 .productBox {
   border-style: solid;
@@ -94,6 +95,6 @@
 /*DESKTOP > 1200px*/
 @media only screen and (min-width: 1200px) {
   .productBox {
-    background-color: green;
+    /* background-color: green; */
   }
 }
